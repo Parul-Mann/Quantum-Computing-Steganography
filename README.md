@@ -13,16 +13,16 @@ The script allows users to:
 - Extract the hidden message from the measurement outcomes.
 
 ## How It Works
-1. Message Encoding: The input binary message is encoded into a quantum circuit by applying Hadamard gates for superposition and CNOT gates for entanglement.
-2. Simulation: The encoded quantum circuit is simulated using the Qiskit Aer simulator to obtain measurement outcomes.
-3. Message Extraction: The most probable outcome is selected, representing the hidden message.
+1. **Message Encoding:** The input binary message is encoded into a quantum circuit by applying Hadamard gates for superposition and CNOT gates for entanglement.
+2. **Simulation:**  The encoded quantum circuit is simulated using the Qiskit Aer simulator to obtain measurement outcomes.
+3. **Message Extraction:**  The most probable outcome is selected, representing the hidden message.
 
 ## Usage
-Clone the repository.
-Install the required dependencies (qiskit, qiskit-aer).
-Run the script.
-Follow the prompts to input the message and carrier length.
+1. Clone the repository.
+2. Install the required dependencies (qiskit, qiskit-aer).
+3. Run the script.
+4. Follow the prompts to input the message and carrier length.
 
 ## Dependencies
-Qiskit
-Qiskit Aer
+- Qiskit
+- Qiskit Aer
